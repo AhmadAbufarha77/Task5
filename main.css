@@ -229,5 +229,409 @@ footer .container .row .footer1{
     padding: 10px;
 }
 
+.one{
+    width: 100%;
+    height: 75vb;
+    display: flex;
+    justify-content: center;
+
+}
+.one .container{
+    
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.one .container .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.photograher{
+    width: 48%;
+    height: 90%;
+    border: 2px solid #47332d;
+    
+}
+.learnA{
+    height: 80%;
+    width: 48%;
+    padding: 20px;
+    border: 2px solid #47332d;
+    border-radius: 30px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h2{
+        font-family:"Oswald", serif; 
+        color: #501d1e;
+
+    }
+}
+.learnA p{
+    text-align: left;
+    font-family: "Concert One", sans-serif;  
+    color: #47332d;
+}
+.two{
+    width: 100%;
+    height: 120vb;
+    display: flex;
+    justify-content: center;
+
+}
+.two .container{
+    
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.two .container .row{
+   
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   h1{
+    font-family:"Oswald", serif; 
+        color: #501d1e;
+        font-size: xx-large;
+
+   }
+    
+
+}
+
+.two .container .row .Services{
+ 
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-around;
+    
+    
+  
+}
+
+.two .container .Services .ser{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    height: 90%;
+    width: 20%;
+    
+    img{
+        width: 100%;
+        height: 80%;
+        border-radius: 30px;
+    }
+
+    h2{
+        text-align: center;
+        font-family: "Concert One", sans-serif;  
+        color: #47332d; 
+        font-size: large;
+    }
+    input{
+        width: 20px;
+        height: 20px;
+        align-self: center;
+        color: #47332d;
+    }
+    input:checked{
+        accent-color: #47332d;
+    }
+}
+
+.two .container .row  .book{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input{
+        padding: 10px;
+        border-radius: 50rem; 
+        background-color: #FFF8F0;
+    }
+     button{
+        width: 200px;
+        height: 50px;
+    padding: 10px;
+    border-radius: 50rem;
+    border: none;
+    background-color: #47332d;
+    font-family: "Concert One", sans-serif;
+    font-size: larger;
+    cursor: pointer;
+    color: #FFF8F0;
+    transition: 0.3s;
+}
+
+ button:hover{
+    background: transparent;
+    color: #501d1e;
+    outline: 1px solid #47332d;
+}
+}
+
+.three{
+    width: 100%;
+    height: 120vb;
+    display: flex;
+    justify-content: center;
+ 
+
+}
+.three img{
+    width: 100%;
+    height: 80%;
+}
+.three .container{
+    
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.three .container .album{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    gap: 20px;
+    
+    flex-direction: column;
+    align-items: center;
+    h1{
+     font-family:"Oswald", serif; 
+         color: #501d1e;
+         font-size: xx-large;
+ 
+    }
+     
+ 
+ }
+
+ .three .container .album .row{
+    width: 100%;
+    height: 40%;
+   
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+.three .container .album .row .part{
+    width: 27%;
+    height: 100%;
+    background-color: #82735C;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: "Concert One", sans-serif;
+    color: #501d1e ;
+
+
+    
+}
+.part a:hover{
+    padding-right: 5px;
+}
+
+.four{
+    width: 100%;
+    height: 120vb;
+    display: flex;
+    justify-content: center;
+
+}
+.four .container{
+    
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.four .container .row{
+   
+   display: flex;
+   justify-content: space-around;
+   
+   align-items: center;
+   h1{
+    font-family:"Oswald", serif; 
+    text-align: left;
+        color: #501d1e;
+        font-size: xx-large;
+
+   }
+   video{
+    width: 40%;
+    height: 90%;
+    object-fit: cover;
+    
+   }
+    
+
+}
+
+.four .container .row .contuct{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    width: 50%;
+    height: 90%;
+    
+    .us{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+    .us input{
+        height: 40px;
+        width: 48%;
+    }
+    .subject{
+        height: 40px;
+        width: 100%;
+    }
+    .Messeage{
+        height: 400px;
+        width: 100%;
+        margin-top: 25px;
+        border: none;
+        border-radius: 10px;
+        border: 3px solid #501d1e;
+        color: #501d1e;
+        font-size: 14px; 
+        padding-left: 5px;
+        font-family: "Concert One", sans-serif;
+    }
+    
+    button{
+       
+        width: 200px;
+        height: 50px;
+    padding: 10px;
+    border-radius: 50rem;
+    border: none;
+    background-color: #47332d;
+    font-family: "Concert One", sans-serif;
+    font-size: larger;
+    cursor: pointer;
+    color: #FFF8F0;
+    transition: 0.3s;
+}
+
+ button:hover{
+    background: transparent;
+    color: #501d1e;
+    outline: 1px solid #47332d;
+}
+input{
+
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid #501d1e;
+    color: #501d1e;
+    font-size: 14px; 
+    padding-left: 5px;
+    font-family: "Concert One", sans-serif;
+
+}
+
+
+}
+.four input::placeholder{
+    color: #501d1e;
+   
+}
+.four .Messeage::placeholder{
+    color: #501d1e;
+   
+}
+
+@media (max-width:1024px){
+    .header{
+        width: 100%;
+    }
+    .learnA h2{
+        font-size: x-large;
+    }
+    .learnA {
+        overflow: auto;
+        font-size: large;
+    }
+}
+@media (max-width:800px){
+    .info1{
+        display: none;
+    }
+    .info0{
+        display: none;
+    }
+    .footer1{
+        font-size: small;
+    }
+}
+
+@media (max-width:600px){
+    .header .row{
+        font-size: x-small;
+        width: 200px;
+        p{
+            font-size: xx-small;
+        }
+    }
+}
+
+@media (max-width:500px){
+    .page{
+        display: none;
+    }
+    header .header .center .row{
+        width: 300px;
+        h1{
+            text-align: center;
+        }
+    }
+   
+    .learnA p{
+        font-size: small;
+    }
+    .footer1{
+        flex-direction: column;
+        justify-content: center;
+        font-size: smaller;
+        gap:0px ;
+        .info{
+            width: 100%;
+        }
+    }
+    .album h2{
+        font-size: small;
+    }
+    .album a{
+        font-size: x-small;
+    }
+    .album i{
+        font-size: small;
+    }
+}
+
+
+
+
 
 
